@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="40%" stop-color="#312e81"/>
+      <stop offset="70%" stop-color="#6b21a8"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <radialGradient id="sparkleGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#fdf4ff" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#f472b6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgGrad5)"/>
+  <circle cx="400" cy="420" r="260" fill="url(#sparkleGlow)"/>
+
+  <!-- Aesthetic Ferris Wheel with glowing lights -->
+  <g transform="translate(400, 420)" stroke="#f472b6" stroke-width="2.5" fill="none">
+    <!-- Big Outer Ring -->
+    <circle cx="0" cy="0" r="160" opacity="0.8"/>
+    <circle cx="0" cy="0" r="140" stroke-dasharray="6,6" opacity="0.6"/>
+    <circle cx="0" cy="0" r="30" fill="#f43f5e" stroke="#fff" stroke-width="3"/>
+    
+    <!-- Spokes -->
+    <line x1="0" y1="-160" x2="0" y2="160" opacity="0.6"/>
+    <line x1="-160" y1="0" x2="160" y2="0" opacity="0.6"/>
+    <line x1="-113" y1="-113" x2="113" y2="113" opacity="0.6"/>
+    <line x1="-113" y1="113" x2="113" y2="-113" opacity="0.6"/>
+
+    <!-- Cabins (Baskets) with warm lights -->
+    <g fill="#fde047" stroke="#fff" stroke-width="1.5">
+      <circle cx="0" cy="-160" r="12"/>
+      <circle cx="113" cy="-113" r="12"/>
+      <circle cx="160" cy="0" r="12"/>
+      <circle cx="113" cy="113" r="12"/>
+      <circle cx="0" cy="160" r="12"/>
+      <circle cx="-113" cy="113" r="12"/>
+      <circle cx="-160" cy="0" r="12"/>
+      <circle cx="-113" cy="-113" r="12"/>
+    </g>
+
+    <!-- Support Stand -->
+    <path d="M-80,240 L0,0 L80,240" stroke="#c084fc" stroke-width="4"/>
+  </g>
+
+  <!-- Floating Heart Balloon -->
+  <g transform="translate(220, 240)">
+    <path d="M0, -25 C-15,-40 -40,-30 -40,-10 C-40,15 0,35 0,35 C0,35 40,15 40,-10 C40,-30 15,-40 0,-25 Z" fill="#f43f5e"/>
+    <path d="M0,35 Q-5,60 10,90" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- Title Card Ribbon -->
+  <rect x="100" y="820" width="600" height="90" rx="16" fill="#130e2e" fill-opacity="0.85" stroke="#c084fc" stroke-width="1.5"/>
+  <text x="400" y="860" font-family="'Playfair Display', serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">
+    UNFORGETTABLE ADVENTURES
+  </text>
+  <text x="400" y="890" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#f5d0fe" text-anchor="middle" letter-spacing="2">
+    MAKING EVERY MOMENT A FAIRY TALE 🎡
+  </text>
+</svg>

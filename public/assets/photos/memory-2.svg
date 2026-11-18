@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="50%" stop-color="#701a75"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+    <radialGradient id="sunburst" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#f43f5e" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3b0764" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgGrad2)"/>
+  <circle cx="400" cy="400" r="280" fill="url(#sunburst)"/>
+
+  <!-- Laughing Sparkles & Hearts Shower -->
+  <g opacity="0.85">
+    <path d="M400,280 C370,240 320,260 320,300 C320,340 400,380 400,380 C400,380 480,340 480,300 C480,260 430,240 400,280 Z" fill="#fff" opacity="0.8"/>
+    <path d="M260,380 C240,350 200,360 200,390 C200,420 260,450 260,450 C260,450 320,420 320,390 C320,360 280,350 260,380 Z" fill="#fda4af" opacity="0.7"/>
+    <path d="M540,360 C520,330 480,340 480,370 C480,400 540,430 540,430 C540,430 600,400 600,370 C600,340 560,330 540,360 Z" fill="#fda4af" opacity="0.7"/>
+  </g>
+
+  <!-- Golden Sparkle stars -->
+  <g fill="#fef08a">
+    <polygon points="400,160 407,185 430,190 407,195 400,220 393,195 370,190 393,185"/>
+    <polygon points="220,240 225,255 240,260 225,265 220,280 215,265 200,260 215,255"/>
+    <polygon points="580,220 585,235 600,240 585,245 580,260 575,245 560,240 575,235"/>
+    <polygon points="320,480 324,495 340,500 324,505 320,520 316,505 300,500 316,495"/>
+    <polygon points="480,500 484,515 500,520 484,525 480,540 476,525 460,520 476,515"/>
+  </g>
+
+  <!-- Smiling face line art illustration -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85">
+    <!-- Happy eyes -->
+    <path d="M330,420 Q355,395 380,420"/>
+    <path d="M420,420 Q445,395 470,420"/>
+    <!-- Cute smile -->
+    <path d="M350,470 Q400,530 450,470"/>
+    <!-- Blush -->
+    <circle cx="320" cy="460" r="18" fill="#f43f5e" opacity="0.5" stroke="none"/>
+    <circle cx="480" cy="460" r="18" fill="#f43f5e" opacity="0.5" stroke="none"/>
+  </g>
+
+  <!-- Title Card Ribbon -->
+  <rect x="100" y="820" width="600" height="90" rx="16" fill="#1b082e" fill-opacity="0.8" stroke="#f472b6" stroke-width="1.5"/>
+  <text x="400" y="860" font-family="'Playfair Display', serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">
+    YOUR INFECTIOUS LAUGHTER
+  </text>
+  <text x="400" y="890" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#fbcfe8" text-anchor="middle" letter-spacing="2">
+    THE BRIGHTEST LIGHT IN MY LIFE ☀️
+  </text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sunsetGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4c0519"/>
+      <stop offset="30%" stop-color="#9f1239"/>
+      <stop offset="60%" stop-color="#f43f5e"/>
+      <stop offset="85%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffbeb" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#fde047" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#fb923c" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#sunsetGrad)"/>
+
+  <!-- Golden Sun Setting -->
+  <circle cx="400" cy="520" r="180" fill="url(#sunGlow)"/>
+  <circle cx="400" cy="520" r="90" fill="#fef08a"/>
+
+  <!-- Ocean Waves Horizon -->
+  <path d="M0,580 Q200,565 400,580 T800,580 L800,1000 L0,1000 Z" fill="#29071c" opacity="0.95"/>
+  <path d="M0,640 Q200,625 400,640 T800,640 L800,1000 L0,1000 Z" fill="#1f0415"/>
+
+  <!-- Sun reflection on water -->
+  <g fill="#fde047" opacity="0.6">
+    <ellipse cx="400" cy="600" rx="90" ry="4"/>
+    <ellipse cx="400" cy="625" rx="70" ry="3"/>
+    <ellipse cx="400" cy="655" rx="120" ry="5"/>
+    <ellipse cx="400" cy="690" rx="150" ry="6"/>
+  </g>
+
+  <!-- Couple Holding Hands Silhouette -->
+  <g fill="#0f020a" transform="translate(400, 680)">
+    <!-- Person Left -->
+    <circle cx="-35" cy="-70" r="18"/>
+    <path d="M-60, -45 C-60,-55 -15,-55 -15,-45 L-20,30 L-50,30 Z"/>
+    <!-- Person Right -->
+    <circle cx="35" cy="-66" r="16"/>
+    <path d="M15, -42 C15,-52 55,-52 55,-42 L50,30 L20,30 Z"/>
+    <!-- Connected arms holding hands in center -->
+    <path d="M-22,-30 Q0,-10 22,-30" stroke="#0f020a" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Cute heart between hands -->
+    <path d="M0,-35 C-8,-45 -20,-38 -20,-25 C-20,-10 0,5 0,5 C0,5 20,-10 20,-25 C20,-38 8,-45 0,-35 Z" fill="#f43f5e" transform="scale(0.7) translate(0,-40)"/>
+  </g>
+
+  <!-- Title Card Ribbon -->
+  <rect x="100" y="820" width="600" height="90" rx="16" fill="#1b030d" fill-opacity="0.85" stroke="#fb7185" stroke-width="1.5"/>
+  <text x="400" y="860" font-family="'Playfair Display', serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">
+    GOLDEN SUNSET WALKS
+  </text>
+  <text x="400" y="890" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#fecdd3" text-anchor="middle" letter-spacing="2">
+    HAND IN HAND, HEART TO HEART 🌅
+  </text>
+</svg>

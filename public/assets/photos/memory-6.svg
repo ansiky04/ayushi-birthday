@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c0519"/>
+      <stop offset="35%" stop-color="#831843"/>
+      <stop offset="70%" stop-color="#581c87"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <radialGradient id="roseGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#ffe4e6" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#f43f5e" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4c0519" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgGrad6)"/>
+  <circle cx="400" cy="440" r="270" fill="url(#roseGlow)"/>
+
+  <!-- Glowing Infinity Ring with Heart -->
+  <g transform="translate(400, 440)">
+    <!-- Infinity loop -->
+    <path d="M-80,0 C-130,-70 -190,0 -130,70 C-80,0 80,0 130,-70 C190,0 130,70 80,0" stroke="#fbcfe8" stroke-width="6" fill="none" opacity="0.8"/>
+    
+    <!-- Central Blooming Glowing Rose -->
+    <circle cx="0" cy="0" r="45" fill="#e11d48"/>
+    <path d="M-20,-10 C-30,-30 0,-40 20,-20 C40,0 20,30 -10,30 C-30,20 -40,0 -20,-10 Z" fill="#be123c"/>
+    <path d="M-10,-5 C-15,-15 5,-20 10,-10 C15,0 10,15 -5,15 Z" fill="#f43f5e"/>
+    <circle cx="0" cy="0" r="8" fill="#fda4af"/>
+
+    <!-- Sparkles -->
+    <circle cx="-130" cy="0" r="5" fill="#fef08a"/>
+    <circle cx="130" cy="0" r="5" fill="#fef08a"/>
+  </g>
+
+  <!-- Crown above rose -->
+  <g transform="translate(400, 310)" fill="#f59e0b" stroke="#fef3c7" stroke-width="2">
+    <polygon points="-40,25 -25,-10 0,15 25,-10 40,25"/>
+    <circle cx="-25" cy="-12" r="4" fill="#fff"/>
+    <circle cx="0" cy="13" r="4" fill="#fff"/>
+    <circle cx="25" cy="-12" r="4" fill="#fff"/>
+  </g>
+
+  <!-- Title Card Ribbon -->
+  <rect x="100" y="820" width="600" height="90" rx="16" fill="#1f0413" fill-opacity="0.85" stroke="#f43f5e" stroke-width="1.5"/>
+  <text x="400" y="860" font-family="'Playfair Display', serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">
+    FOREVER MY FAVORITE PERSON
+  </text>
+  <text x="400" y="890" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#fda4af" text-anchor="middle" letter-spacing="2">
+    TODAY, TOMORROW & ALWAYS 💖
+  </text>
+</svg>
